@@ -76,6 +76,7 @@ class TheBridge(Scene):
 
 class EscapePod(Scene):
     def enter(self):
+        print(f"Congratulations {Engine.player} you escaped")
         pass
 
 class Map(object):
